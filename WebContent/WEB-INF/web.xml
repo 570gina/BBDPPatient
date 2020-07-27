@@ -169,6 +169,14 @@
     <servlet-name>GetInfoServlet</servlet-name>
     <url-pattern>/GetInfoServlet</url-pattern>
   </servlet-mapping>
+   <servlet>
+    <servlet-name>PatientAggregateAPI</servlet-name>
+    <servlet-class>bbdp.aggregate.exposing.PatientAggregateAPI</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>PatientAggregateAPI</servlet-name>
+    <url-pattern>/PatientAggregateAPI</url-pattern>
+  </servlet-mapping>
   <servlet>
     <description></description>
     <display-name>PatientSuggestionServlet</display-name>
